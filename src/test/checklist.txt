@@ -1,0 +1,11 @@
+Null
+Blank
+-CaseSensitive
+SpecialCharacters
+Numeral
+IdandNameRelevant/nonRelevant
+
+
+
+
+

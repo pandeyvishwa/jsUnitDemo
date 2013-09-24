@@ -1,0 +1,37 @@
+url to be entered in testRunner - 
+
+
+C:/jsUnitSuite/jsunit/mapTestSuite.html
+
+1. URL entered in "testRunner.html" is captured in "jsUnitTestManager.js" - line 559
+this.setStatus('Opening Test Page "' + this._currentTestPage.url + '"');
+
+
+
+2. RunButton and text box in "main-data.html".
+	document.writeln('<input type="button" name="runButton" value="Run" onclick="top.startTests()" class="' + 		buttonClass + '">');
+
+
+3. "showLog()" in "main-problems.html"
+
+4. Logs captured in "jsUnitTestManager.js" - line 594:
+JsUnitTestManager.prototype.initialize = function () {
+    this.setStatus('Running test "' + this._testFunctionName + '"');
+
+
+
+Initializing...
+Done initializing
+Opening Test Page "file:///C:/jsunit/jsunit/testAdd.html"
+Running test "testAdd"
+Running test "testAdd2"
+Done (5.653 seconds)
+
+task:
+
+bring 
+1. logs
+2. Errors and Failures - description(on doubleClick) on single page.
+
+
+

@@ -1,0 +1,14 @@
+
+1. Open testRunner.html in jsunit directory.
+
+2. Supply the below path and click run button.
+	C:/jsunit/jsunitSimpleIntegration/jsunit/testAdd1.html
+
+One error is deliberately induced in second test case via assertNotNull.
+
+3. Test cases present in src/test directory.
+
+4. Base methods to be tested present in src/main directory.
+
+
+

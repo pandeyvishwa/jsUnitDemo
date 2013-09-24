@@ -1,0 +1,173 @@
+Testsuite: net.jsunit.StandaloneTest
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 73.584 sec
+------------- Standard Output ---------------
+- Could not find webwork.properties
+- Checking Resource aliases
+- Version Jetty/5.1.11RC0
+- Started org.mortbay.jetty.servlet.ServletHandler@c1f10e
+- Started ServletHttpContext[/jsunit,/jsunit]
+- Started SocketListener on 0.0.0.0:8080
+- Started org.mortbay.jetty.Server@1d85f79
+- Could not load portlet-api, disabling webwork's portlet support.
+- Started HttpContext[/,/]
+- Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=8080]
+- Stopped SocketListener on 0.0.0.0:8080
+- Stopped org.mortbay.jetty.servlet.ServletHandler@c1f10e
+- Stopped ServletHttpContext[/jsunit,/jsunit]
+- Stopped HttpContext[/,/]
+- Stopped org.mortbay.jetty.Server@1d85f79
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+Jan 11, 2013 5:45:14 PM net.jsunit.AbstractJsUnitServer start
+INFO: Starting Server Server with configuration:
+<configuration type="SERVER">
+  <os>Windows XP - x86</os>
+  <ipAddress>10.120.4.93</ipAddress>
+  <hostname>ao09pc01.ASIA.ROOT.PRI</hostname>
+  <browserFileNames>
+    <browserFileName id="0">C:\Program Files\Mozilla Firefox\firefox.exe</browserFileName>
+  </browserFileNames>
+  <closeBrowsersAfterTestRuns>false</closeBrowsersAfterTestRuns>
+  <description />
+  <ignoreUnresponsiveRemoteMachines>false</ignoreUnresponsiveRemoteMachines>
+  <logsDirectory>C:\jsUnitSuite\target</logsDirectory>
+  <port>8080</port>
+  <remoteMachineURLs />
+  <resourceBase>C:\jsUnitSuite\jsunit\.</resourceBase>
+  <timeoutSeconds>120</timeoutSeconds>
+  <url>file:/C:/jsUnitSuite/jsunit/testRunner.html?testPage=C:/jsUnitSuite/jsunit/mapTestSuite.html</url>
+</configuration>
+Jan 11, 2013 5:45:14 PM net.jsunit.TestRunManager runTests
+INFO: Starting Test Run
+Jan 11, 2013 5:45:14 PM net.jsunit.JsUnitServer launchBrowserTestRun
+INFO: Launching Firefox on file:/C:/jsUnitSuite/jsunit/testRunner.html?testPage=C:/jsUnitSuite/jsunit/mapTestSuite.html&autoRun=true&browserId=0&submitResults=localhost:8080/jsunit/acceptor
+Jan 11, 2013 5:45:14 PM net.jsunit.TestRunManager runTests
+INFO: Waiting for Firefox to submit result
+Jan 11, 2013 5:46:26 PM net.jsunit.action.ResultAcceptorAction execute
+INFO: Received submission from browser Firefox
+Jan 11, 2013 5:46:27 PM net.jsunit.TestRunManager runTests
+INFO: Test Run Completed
+  localhost (IP address: 10.120.4.93, host name: ao09pc01.ASIA.ROOT.PRI, OS: Windows XP - x86)
+    Firefox (Mozilla/5.0 (Windows NT 5.1; rv:18.0) Gecko/20100101 Firefox/18.0)
+      file:///C:/jsUnitSuite/jsunit/mapTestSuite.html
+        testGetPOICategories_CategoryNameNull failed: "testFunction has func1"
+          Expected <101> (String) but was <28> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_CategoryNameNull
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testGetPOICategories_CategoryNameBlank failed: "testFunction has func1"
+          Expected <101> (String) but was <28> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_CategoryNameBlank
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testGetPOICategories_CategoryNameCorrect failed: "testFunction has func1"
+          Expected <10> (String) but was <11> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_CategoryNameCorrect
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testGetPOICategories_CategoryNameNullMapNameNull failed: "testFunction has func1"
+          Expected <101> (String) but was <28> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_CategoryNameNullMapNameNull
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testGetPOICategories_MapNameNull failed: "testFunction has func1"
+          Expected <10> (String) but was <11> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_MapNameNull
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testGetPOICategories_MapNameBlank failed: "testFunction has func1"
+          Expected <10> (String) but was <11> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_MapNameBlank
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testGetPOICategories_CategoryNameSubString failed: "testFunction has func1"
+          Expected <112> (String) but was <19> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testGetPOICategories_CategoryNameSubString
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testUpdatePOICategories_CategoryIdNullCategoryNameSp failed: "testFunction has func1"
+          Expected <105> (String) but was <101> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testUpdatePOICategories_CategoryIdNullCategoryNameSp
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testUpdatePOICategories_CategoryIdNullCategoryNameNumeric failed: "testFunction has func1"
+          Expected <105> (String) but was <101> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testUpdatePOICategories_CategoryIdNullCategoryNameNumeric
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+        testUpdatePOICategories_CategoryIdsubStringCategoryNameNull failed: "testFunction has func1"
+          Expected <101> (String) but was <105> (String)
+          
+          Stack trace follows:
+          > JsUnit
+          > JsUnit
+          > assertEquals
+          > testUpdatePOICategories_CategoryIdsubStringCategoryNameNull
+          > JsUnitTestManager
+          > JsUnitTestManager
+
+Jan 11, 2013 5:46:27 PM net.jsunit.AbstractJsUnitServer dispose
+INFO: Stopping JsUnit Server
+------------- ---------------- ---------------
+
+Testcase: C:\Program Files\Mozilla Firefox\firefox.exe took 73.584 sec
+	FAILED
+The test run had 0 error(s) and 10 failure(s).
+junit.framework.AssertionFailedError: The test run had 0 error(s) and 10 failure(s).
+	at net.jsunit.StandaloneTest.testStandaloneRun(StandaloneTest.java:75)
+	at net.jsunit.StandaloneTest.runTest(StandaloneTest.java:65)
+

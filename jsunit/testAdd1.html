@@ -1,0 +1,32 @@
+<html>
+	<head>
+	    <title>Test Add Function</title>
+
+	    <script type="text/javascript" src="app\jsUnitCore.js"></script>
+	    <script type="text/javascript" src="..\src\main\myAdd1.js"></script>
+
+	</head>
+	<body>
+	<script type="text/javascript">
+	    function setUp() {
+	        // fixture setup before running a testcase
+//			alert("1");
+	    }
+
+	    function tearDown() {
+	        // anything to cleanup after running a testcase
+	//		alert("2");
+	    }
+
+	    function testAdd() {
+	        assertEquals("2 + 1 is equal to: ", 3, add(2, 1));
+	  //      alert("3");
+	    }
+
+	    function testAdd2() {
+	        assertNotEquals("2 + 1 is not equal to: ", 0, add(2, 1));
+	    //    alert("4");
+	    }
+	</script>
+	</body>
+</html>
